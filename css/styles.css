@@ -302,3 +302,16 @@ template {
    */
 [hidden] {
   display: none; }
+
+body {
+  background-color: #eaeced; }
+  body div.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif; }
+  body h2 {
+    font-size: 2.125rem; }
+  body h3 {
+    font-size: 1.8125rem; }
+  body p {
+    font-size: 1rem; }
