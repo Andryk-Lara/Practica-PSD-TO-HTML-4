@@ -1,3 +1,4 @@
+/*GENERAL CONFIGURATION*/
 body{
     background-color: #eaeced;
     div.wrapper{
@@ -6,12 +7,18 @@ body{
         font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     h2{
-        font-size: 2.125rem;
+        font-size: 2.12rem;
     }
     h3{
-        font-size: 1.8125rem;
+        font-size: 1.81rem;
     }
     p{
         font-size: 1rem;
     }
 }    
+/*CLEARFIX*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
