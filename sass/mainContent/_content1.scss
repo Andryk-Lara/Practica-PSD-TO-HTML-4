@@ -25,12 +25,14 @@ div.mainContent-one-text{
         color: #40aceb;
         font-weight: bold;
     }
-    a.mainContent-one-button{
-        color: white;
-        font-size: 0.85rem;
-        text-decoration: none;
-        border-radius: 3px;
+    button{
         background-color: #f5ba1c;
+        border: #f5ba1c;
         padding: 9px 3%;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 0.85rem;
+        }
     }
 }

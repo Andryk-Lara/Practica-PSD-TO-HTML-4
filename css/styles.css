@@ -371,13 +371,14 @@ div.header-bottom {
   div.header-bottom a.text-highlighted {
     color: #40aceb;
     font-weight: bold; }
-  div.header-bottom a.header-bottom-button {
-    color: white;
-    font-size: 0.85rem;
-    text-decoration: none;
-    border-radius: 3px;
+  div.header-bottom button {
     background-color: #7bb84f;
+    border: #7bb84f;
     padding: 9px 3%; }
+    div.header-bottom button a {
+      text-decoration: none;
+      color: white;
+      font-size: 0.85rem; }
 
 /*MAINCONTENT ONE*/
 /*118240946*/
@@ -401,25 +402,90 @@ div.mainContent-one-text {
   div.mainContent-one-text a.text-highlighted {
     color: #40aceb;
     font-weight: bold; }
-  div.mainContent-one-text a.mainContent-one-button {
-    color: white;
-    font-size: 0.85rem;
-    text-decoration: none;
-    border-radius: 3px;
+  div.mainContent-one-text button {
     background-color: #f5ba1c;
+    border: #f5ba1c;
     padding: 9px 3%; }
+    div.mainContent-one-text button a {
+      text-decoration: none;
+      color: white;
+      font-size: 0.85rem; }
 
 /*MAINCONTENT TWO*/
 /*118240946*/
 /*MAINCONTENT TWO HEADER*/
-div.mainContent-two-header {
-  width: 100%;
+div.mainContent-two {
   text-align: center;
   background-color: #f9f9f9;
-  padding: 30px 0% 20px 0%; }
+  padding: 30px 0% 20px 0%;
+  margin-bottom: 30px; }
+
+div.mainContent-two-header {
+  width: 100%; }
   div.mainContent-two-header h3 {
     font-weight: 400; }
   div.mainContent-two-header p {
     color: #aeaeae;
     line-height: 1.75rem;
-    padding: 0px 11%; }
+    padding: 10px 11%; }
+
+div.mainContent-two-imageInformation {
+  background-color: white;
+  /*GENERAL CLASS FOR IMAGE*/
+  /*GENERAL CLASS FOR INFORMATION*/
+  /*BACKGROUND COLORS*/ }
+  div.mainContent-two-imageInformation .mainContent-two-imageClass1 {
+    width: 50%;
+    float: left; }
+    div.mainContent-two-imageInformation .mainContent-two-imageClass1 img {
+      width: 100%; }
+  div.mainContent-two-imageInformation .mainContent-two-imageClass2 {
+    width: 50%;
+    float: right; }
+    div.mainContent-two-imageInformation .mainContent-two-imageClass2 img {
+      width: 100%; }
+  div.mainContent-two-imageInformation .mainContent-two-informationClass1 {
+    width: 36%;
+    float: right;
+    padding: 61.5px 7%; }
+    div.mainContent-two-imageInformation .mainContent-two-informationClass1 p.mainContent-textBold {
+      color: white;
+      font-weight: bold;
+      text-align: left; }
+    div.mainContent-two-imageInformation .mainContent-two-informationClass1 p {
+      color: white;
+      text-align: left; }
+  div.mainContent-two-imageInformation .mainContent-two-informationClass2 {
+    width: 36%;
+    float: left;
+    padding: 60px 7%;
+    margin-top: -3px; }
+    div.mainContent-two-imageInformation .mainContent-two-informationClass2 p.mainContent-textBold {
+      color: white;
+      font-weight: bold;
+      text-align: right; }
+    div.mainContent-two-imageInformation .mainContent-two-informationClass2 p {
+      color: white;
+      text-align: right; }
+  div.mainContent-two-imageInformation .backgroundColor1 {
+    background-color: #0071bd; }
+  div.mainContent-two-imageInformation .backgroundColor2 {
+    background-color: #a4d3f3; }
+  div.mainContent-two-imageInformation .backgroundColor3 {
+    background-color: #333c4d;
+    margin-top: -3px; }
+  div.mainContent-two-imageInformation .backgroundColor4 {
+    background-color: #76b3dd; }
+
+/*MAINCONTENT TWO BUTTON*/
+div.mainContent-two-button {
+  margin-top: 30px;
+  margin-bottom: 50px; }
+  div.mainContent-two-button button {
+    background-color: #40aceb;
+    border: #40aceb;
+    padding: 9px 3%; }
+    div.mainContent-two-button button a {
+      text-decoration: none;
+      color: white;
+      font-size: 0.85rem; }

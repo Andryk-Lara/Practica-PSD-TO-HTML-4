@@ -54,12 +54,14 @@ div.header-bottom{
         color: #40aceb;
         font-weight: bold;
     }
-    a.header-bottom-button{
-        color: white;
-        font-size: 0.85rem;
-        text-decoration: none;
-        border-radius: 3px;
+    button{
         background-color: #7bb84f;
+        border: #7bb84f;
         padding: 9px 3%;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 0.85rem;
+        }
     }
 }
