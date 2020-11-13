@@ -573,7 +573,7 @@ div.mainContent-four {
       font-weight: 400;
       margin-bottom: 10px; }
     div.mainContent-four .mainContent-four-header p {
-      color: #aeaeae;
+      color: #979797;
       line-height: 1.75rem;
       padding: 10px 3%; }
   div.mainContent-four button {
@@ -587,3 +587,24 @@ div.mainContent-four {
       color: white;
       font-size: 1rem;
       font-weight: bold; }
+
+div.footer {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px; }
+  div.footer .footer-companyRights {
+    width: 58%;
+    float: left; }
+    div.footer .footer-companyRights p {
+      color: #979797;
+      font-size: 0.813rem; }
+    div.footer .footer-companyRights a {
+      color: #979797; }
+  div.footer .footer-media {
+    width: 42%;
+    float: right;
+    text-align: right;
+    margin-top: 15px; }
+    div.footer .footer-media a {
+      margin-left: 9%;
+      opacity: 0.5; }
