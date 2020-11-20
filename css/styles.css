@@ -434,19 +434,22 @@ div.mainContent-two-imageInformation {
   /*GENERAL CLASS FOR IMAGE*/
   /*GENERAL CLASS FOR INFORMATION*/
   /*BACKGROUND COLORS*/ }
-  div.mainContent-two-imageInformation .mainContent-two-imageClass1 {
+  div.mainContent-two-imageInformation div.mainContent-two-boxLeft {
     width: 50%;
     float: left; }
+  div.mainContent-two-imageInformation div.mainContent-two-boxRight {
+    width: 50%;
+    float: left; }
+  div.mainContent-two-imageInformation .mainContent-two-imageClass1 {
+    width: 100%; }
     div.mainContent-two-imageInformation .mainContent-two-imageClass1 img {
       width: 100%; }
   div.mainContent-two-imageInformation .mainContent-two-imageClass2 {
-    width: 50%;
-    float: right; }
+    width: 100%; }
     div.mainContent-two-imageInformation .mainContent-two-imageClass2 img {
       width: 100%; }
   div.mainContent-two-imageInformation .mainContent-two-informationClass1 {
-    width: 36%;
-    float: right;
+    width: 86%;
     padding: 61.5px 7%; }
     div.mainContent-two-imageInformation .mainContent-two-informationClass1 p.mainContent-textBold {
       color: white;
@@ -456,8 +459,7 @@ div.mainContent-two-imageInformation {
       color: white;
       text-align: left; }
   div.mainContent-two-imageInformation .mainContent-two-informationClass2 {
-    width: 36%;
-    float: left;
+    width: 86%;
     padding: 60px 7%;
     margin-top: -3px; }
     div.mainContent-two-imageInformation .mainContent-two-informationClass2 p.mainContent-textBold {
@@ -588,6 +590,8 @@ div.mainContent-four {
       font-size: 1rem;
       font-weight: bold; }
 
+/*FOOTER*/
+/*118240946*/
 div.footer {
   width: 100%;
   margin-top: 20px;
@@ -608,3 +612,45 @@ div.footer {
     div.footer .footer-media a {
       margin-left: 9%;
       opacity: 0.5; }
+
+@media (max-width: 700px) {
+  /*MAINCONTENT TWO*/
+  div.mainContent-two-boxLeft {
+    width: 50%;
+    margin-left: 25%;
+    float: left; }
+  div.mainContent-two-boxRight {
+    width: 50%;
+    margin-left: 25%;
+    float: left; }
+  /*OUR GALLERY*/
+  .mainContent-three-images {
+    text-align: center;
+    margin: 0 auto; }
+    .mainContent-three-images .mainContent-three-imagesSector1 {
+      margin-bottom: 0; }
+      .mainContent-three-images .mainContent-three-imagesSector1 div.box {
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 10px; }
+    .mainContent-three-images .mainContent-three-imagesSector2 div.box {
+      width: 50%;
+      margin-left: 25%;
+      margin-bottom: 10px; } }
+
+@media (max-width: 1024px) {
+  /*OUR GALLERY*/
+  .mainContent-three-images {
+    text-align: center;
+    margin: 0 auto; }
+    .mainContent-three-images .mainContent-three-imagesSector1 {
+      margin-bottom: 0; }
+      .mainContent-three-images .mainContent-three-imagesSector1 div.box {
+        width: 50%;
+        margin-left: 0;
+        float: left;
+        margin-bottom: 10px; }
+    .mainContent-three-images .mainContent-three-imagesSector2 div.box {
+      width: 50%;
+      margin-left: 0;
+      margin-bottom: 10px; } }

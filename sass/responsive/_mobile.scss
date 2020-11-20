@@ -1,0 +1,34 @@
+@media (max-width:700px){
+    /*MAINCONTENT TWO*/
+    div.mainContent-two-boxLeft{
+        width: 50%;
+        margin-left: 25%;
+        float: left;
+    }
+    div.mainContent-two-boxRight{
+        width: 50%;
+        margin-left: 25%;
+        float: left;
+    }
+    /*OUR GALLERY*/
+    .mainContent-three-images{
+        text-align: center;
+        margin: 0 auto;
+        .mainContent-three-imagesSector1{
+            margin-bottom: 0;
+            div.box{
+                width: 50%;
+                margin-left: 25%;
+                margin-bottom: 10px;
+            }
+        }
+        .mainContent-three-imagesSector2{
+            div.box{
+                width: 50%;
+                margin-left: 25%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+}

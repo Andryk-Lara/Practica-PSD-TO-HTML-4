@@ -21,24 +21,29 @@ div.mainContent-two-header{
 div.mainContent-two-imageInformation{
     background-color: white;
     /*GENERAL CLASS FOR IMAGE*/
-    .mainContent-two-imageClass1{
+    div.mainContent-two-boxLeft{
         width: 50%;
         float: left;
+    }
+    div.mainContent-two-boxRight{
+        width: 50%;
+        float: left;
+    }
+    .mainContent-two-imageClass1{
+        width: 100%;
         img{
             width: 100%;
         }
     }
     .mainContent-two-imageClass2{
-        width: 50%;
-        float: right;
+        width: 100%;
         img{
             width: 100%;
         }
     }
     /*GENERAL CLASS FOR INFORMATION*/
     .mainContent-two-informationClass1{
-        width: 36%;
-        float: right;
+        width: 86%;
         padding: 61.5px 7%;
         p.mainContent-textBold{
             color: white;
@@ -51,8 +56,7 @@ div.mainContent-two-imageInformation{
         }
     }
     .mainContent-two-informationClass2{
-        width: 36%;
-        float: left;
+        width: 86%;
         padding: 60px 7%;
         margin-top: -3px;
         p.mainContent-textBold{

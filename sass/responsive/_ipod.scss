@@ -1,0 +1,23 @@
+@media (max-width:1024px){
+    /*OUR GALLERY*/
+    .mainContent-three-images{
+        text-align: center;
+        margin: 0 auto;
+        .mainContent-three-imagesSector1{
+            margin-bottom: 0;
+            div.box{
+                width: 50%;
+                margin-left: 0;
+                float: left;
+                margin-bottom: 10px;
+            }
+        }
+        .mainContent-three-imagesSector2{
+            div.box{
+                width: 50%;
+                margin-left: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
